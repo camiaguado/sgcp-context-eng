@@ -1,8 +1,8 @@
 {
-  "name": "arscontexta-engine",
+  "name": "blumb-context-engine",
   "version": "1.0.0",
   "type": "module",
-  "description": "Motor PKM personal — genera y gestiona tu segundo cerebro en markdown",
+  "description": "Motor SGCP personal — genera y gestiona tu segundo cerebro en markdown",
   "scripts": {
     "setup": "node scripts/generate-vault.js",
     "connect": "node scripts/find-connections.js",

@@ -1,6 +1,6 @@
-# ArsContexta — Motor PKM personal
+# Blumb ContextEng — Motor SGCP personal
 
-Sistema de gestión del conocimiento personal (PKM) basado en conversación. Genera un "segundo cerebro" personalizado en markdown puro.
+Sistema de gestión del conocimiento personal (SGCP) basado en conversación. Genera un "segundo cerebro" personalizado en markdown puro.
 
 ## Idea central
 
@@ -68,6 +68,3 @@ Eso es todo. El wizard te guía por el resto.
 - El vault puede vivir en iCloud, Dropbox, o cualquier carpeta
 - Git-friendly: cada nota es un archivo de texto
 
-## Inspiración
-
-Inspirado en [ArsContexta](https://github.com/agenticnotetaking/arscontexta) y en los trabajos de Niklas Luhmann, Tiago Forte, y Robert Bjork.
