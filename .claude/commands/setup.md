@@ -112,17 +112,17 @@ Podés usar iCloud Drive, Dropbox, Google Drive, o cualquier carpeta.
 
 ---
 
-## Pregunta 8 — Balance Zettelkasten / PARA
+## Pregunta 8 — Balance notas permanentes / PARA
 
 "¿Cómo te imaginás usando el sistema principalmente?
 
-**a)** Conectar ideas y construir conocimiento a largo plazo (más Zettelkasten)
+**a)** Conectar ideas y construir conocimiento a largo plazo (más notas permanentes)
 **b)** Organizar proyectos y recursos activos (más PARA)
 **c)** Un equilibrio de ambos"
 
-→ `a` = `zettelkasten_weight: "heavy"`, `para_weight: "medium"`
-→ `b` = `zettelkasten_weight: "light"`, `para_weight: "heavy"`
-→ `c` = `zettelkasten_weight: "medium"`, `para_weight: "medium"`
+→ `a` = `ideas_weight: "heavy"`, `para_weight: "medium"`
+→ `b` = `ideas_weight: "light"`, `para_weight: "heavy"`
+→ `c` = `ideas_weight: "medium"`, `para_weight: "medium"`
 
 ---
 
@@ -145,7 +145,7 @@ Construí este JSON completo con todas las respuestas:
   "review_cadence_days": 7,
   "thinking_style": "[visual-framework/narrative/mixed]",
   "capture_sources": ["..."],
-  "zettelkasten_weight": "[light/medium/heavy]",
+  "ideas_weight": "[light/medium/heavy]",
   "para_weight": "[light/medium/heavy]",
   "active_projects": [
     { "slug": "...", "name": "...", "status": "active" }
@@ -160,7 +160,7 @@ Construí este JSON completo con todas las respuestas:
     "areas": "2-areas",
     "resources": "3-recursos",
     "archive": "4-archivo",
-    "zettelkasten": "zettelkasten",
+    "notas-permanentes": "notas-permanentes",
     "daily": "diarios",
     "captures": "capturas",
     "system": "_sistema"
@@ -168,7 +168,7 @@ Construí este JSON completo con todas las respuestas:
 }
 ```
 
-(Si el idioma es `en`, cambiar los valores de `folders` a inglés: `0-inbox`, `1-projects`, `2-areas`, `3-resources`, `4-archive`, `zettelkasten`, `daily`, `captures`, `_system`)
+(Si el idioma es `en`, cambiar los valores de `folders` a inglés: `0-inbox`, `1-projects`, `2-areas`, `3-resources`, `4-archive`, `notas-permanentes`, `daily`, `captures`, `_system`)
 
 ### Paso 2: Mostrá el resumen
 

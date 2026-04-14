@@ -87,13 +87,13 @@ Aplicá elaborative interrogation. Hacé estas preguntas de a una:
 
 (Esperá respuesta)
 
-Con las tres respuestas, creá una nota permanente nueva en `zettelkasten/[YYYYMMDD-slug].md`:
+Con las tres respuestas, creá una nota permanente nueva en `notas-permanentes/[YYYYMMDD-slug].md`:
 - Usá el template de nota permanente
 - El body incluye la idea central + las tres respuestas elaboradas
 - Enlazá la nota original en el campo `conexiones:`
 - Marcá la captura original como `procesado: true` y enlazá la permanente
 
-Mostrá: "Creé la nota permanente '[título]' en zettelkasten/."
+Mostrá: "Creé la nota permanente '[título]' en notas-permanentes/."
 
 **Opción 4 — Archivar:**
 - Mover a `4-archivo/`

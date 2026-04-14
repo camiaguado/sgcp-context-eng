@@ -48,7 +48,7 @@ methodology/         ← Fundamentos científicos del sistema
 | Elaborative Interrogation | `/inbox` | 3 preguntas que aumentan comprensión y retención |
 | Spaced Repetition | `/review` | 5 notas al azar no vistas en 14+ días |
 | Progressive Summarization | `/capture` | 4 capas de síntesis (raw → esencia) |
-| Zettelkasten | `zettelkasten/` | Notas atómicas + conexiones explícitas |
+| notas permanentes | `notas-permanentes/` | Notas atómicas + conexiones explícitas |
 | PARA | Estructura de carpetas | Organización por accionabilidad |
 
 Ver `methodology/research-foundation.md` para el respaldo completo.

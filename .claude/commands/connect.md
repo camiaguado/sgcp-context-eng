@@ -111,7 +111,7 @@ Si el argumento es `--huerfanas` o `--orphans`:
 
 1. Buscá todas las notas sin campo `conexiones` o con `conexiones: []`:
 ```bash
-find [vault_path]/zettelkasten -name "*.md" | xargs grep -L "conexiones:" 2>/dev/null
+find [vault_path]/notas-permanentes -name "*.md" | xargs grep -L "conexiones:" 2>/dev/null
 ```
 
 2. Para cada nota huérfana, ejecutá el finder y sugeriré las top-3 conexiones.

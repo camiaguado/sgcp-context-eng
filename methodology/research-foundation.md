@@ -74,7 +74,7 @@ Este sistema está diseñado para cruzar ese puente sistemáticamente.
 
 ---
 
-## Principio 5: Zettelkasten — Atomicidad y Conexión
+## Principio 5: Notas permanentes — Atomicidad y Conexión
 
 **Dónde se aplica:** estructura de notas permanentes, campo `conexiones`, `/connect`
 
@@ -82,9 +82,9 @@ Este sistema está diseñado para cruzar ese puente sistemáticamente.
 
 **Por qué funciona:** las notas atómicas son más fáciles de reusar en nuevos contextos. Las conexiones explícitas permiten navegar el conocimiento de formas no lineales — encontrás relaciones que no hubieras visto leyendo secuencialmente.
 
-**Implementación:** el `zettelkasten/` del vault es para notas permanentes (una idea por nota). El campo `conexiones:` en el frontmatter es para links curados. `/connect` automatiza la *descubierta* de conexiones potenciales; vos decidís cuáles son realmente significativas.
+**Implementación:** la carpeta `notas-permanentes/` del vault es para notas permanentes (una idea por nota). El campo `conexiones:` en el frontmatter es para links curados. `/connect` automatiza la *descubierta* de conexiones potenciales; vos decidís cuáles son realmente significativas.
 
-**Tensión con PARA:** Luhmann no tenía proyectos en el sentido moderno. Este sistema combina la potencia conceptual del Zettelkasten con la orientación a la acción del PARA. Son complementarios: PARA organiza para la *acción*, Zettelkasten organiza para la *comprensión*.
+**Tensión con PARA:** Luhmann no tenía proyectos en el sentido moderno. Este sistema combina la potencia conceptual de las notas permanentes con la orientación a la acción del PARA. Son complementarios: PARA organiza para la *acción*, las notas permanentes organizan para la *comprensión*.
 
 ---
 

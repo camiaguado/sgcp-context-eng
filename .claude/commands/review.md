@@ -55,13 +55,13 @@ Para `d` → marcalo visualmente en la revisión.
 
 ## Paso 3: Spaced Repetition — Notas aleatorias
 
-Seleccioná 5 notas del zettelkasten para revisar. Criterio:
+Seleccioná 5 notas de la carpeta de notas permanentes para revisar. Criterio:
 1. Preferí notas con `tipo: permanente`
 2. Preferí notas con `ultima_revision` > 14 días atrás (o sin ese campo)
 3. Si hay menos de 5 notas permanentes, incluí notas de literatura procesadas
 
 ```bash
-find [vault_path]/zettelkasten -name "*.md" 2>/dev/null | shuf | head -5
+find [vault_path]/notas-permanentes -name "*.md" 2>/dev/null | shuf | head -5
 ```
 
 Para cada nota seleccionada:
@@ -115,7 +115,7 @@ proyectos_revisados: [lista]
 ## Estadísticas
 - Notas nuevas esta semana: [N]
 - Capturas procesadas: [N]
-- Notas Zettelkasten revisadas: [N]
+- Notas permanentes revisadas: [N]
 
 ## Estado de proyectos
 [Resumen por proyecto]

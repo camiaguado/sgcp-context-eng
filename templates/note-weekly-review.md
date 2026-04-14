@@ -11,7 +11,7 @@ proyectos_revisados: []
 
 - Notas nuevas: 
 - Capturas procesadas: 
-- Notas Zettelkasten revisadas: 
+- Notas permanentes revisadas: 
 
 ## Estado de proyectos
 

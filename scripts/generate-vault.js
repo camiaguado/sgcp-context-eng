@@ -208,7 +208,7 @@ ${projects || (lang === 'es' ? '_(sin proyectos todavía)_' : '_(no projects yet
 
 ${areas || (lang === 'es' ? '_(sin áreas todavía)_' : '_(no areas yet)_')}
 
-## ${lang === 'es' ? 'Zettelkasten (ideas permanentes)' : 'Zettelkasten (permanent ideas)'} → \`${f.zettelkasten}/\`
+## ${lang === 'es' ? 'Ideas permanentes' : 'Permanent ideas'} → \`${f.zettelkasten}/\`
 
 ${lang === 'es' ? '_(vacío — se llena con /inbox y /capture)_' : '_(empty — filled via /inbox and /capture)_'}
 
@@ -250,7 +250,7 @@ Este manual está hecho para vos, ${config.owner}. Refleja cómo está configura
 
 - **Dominio:** ${config.domain}
 - **Estilo de pensamiento:** ${config.thinking_style}
-- **Balance:** Zettelkasten ${config.zettelkasten_weight} / PARA ${config.para_weight}
+- **Balance:** Ideas permanentes ${config.ideas_weight} / PARA ${config.para_weight}
 - **Idioma:** ${config.language}
 
 ## Flujo de trabajo diario (10 minutos)
@@ -278,7 +278,7 @@ ${f.captures}/     ← Todo llega acá primero
 ${f.inbox}/        ← Items sin procesar
 ${f.projects}/     ← Proyectos con fecha de cierre
 ${f.areas}/        ← Responsabilidades continuas
-${f.zettelkasten}/ ← Conocimiento propio (ideas permanentes)
+${f.zettelkasten}/ ← Ideas propias permanentes
 ${f.resources}/    ← Referencia (no procesar activamente)
 ${f.daily}/        ← Notas diarias
 ${f.archive}/      ← Todo lo terminado o inactivo
@@ -328,7 +328,7 @@ This manual is made for you, ${config.owner}. It reflects how your system is con
 
 - **Domain:** ${config.domain}
 - **Thinking style:** ${config.thinking_style}
-- **Balance:** Zettelkasten ${config.zettelkasten_weight} / PARA ${config.para_weight}
+- **Balance:** Ideas permanentes ${config.ideas_weight} / PARA ${config.para_weight}
 - **Language:** ${config.language}
 
 ## Daily workflow (10 minutes)
