@@ -1,0 +1,10 @@
+# Node
+node_modules/
+
+# Archivos temporales del sistema
+.DS_Store
+*.tmp
+*.log
+
+# El vault NO va en este repo — es personal de cada usuario
+# (el vault vive en otro directorio, elegido en /setup)

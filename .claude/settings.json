@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/generate-vault.js*)",
+      "Bash(node scripts/find-connections.js*)",
+      "Bash(node scripts/session-orient.js*)",
+      "Bash(node scripts/validate-note.js*)",
+      "Bash(mkdir -p *)",
+      "Bash(find * -name *.md*)",
+      "Bash(date*)",
+      "Bash(ls *)",
+      "Bash(cat *)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node scripts/session-orient.js 2>/dev/null || true"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node scripts/validate-note.js 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
+  }
+}
